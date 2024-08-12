@@ -39,5 +39,6 @@
 *.tlog
 *.vspscc
 *.vssscc
+*.vsidx
 _builds/
 *_proj/

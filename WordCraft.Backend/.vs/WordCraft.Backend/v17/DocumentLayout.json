@@ -1,16 +1,85 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13F4D94C-D3EC-4F87-9285-8ED1D7AB3E0D}|WordCraft.Service\\WordCraft.Service.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.service\\services\\wordcraft\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F4D94C-D3EC-4F87-9285-8ED1D7AB3E0D}|WordCraft.Service\\WordCraft.Service.csproj|solutionrelative:wordcraft.service\\services\\wordcraft\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5D0BAB-3A3A-4E1A-8CC9-53430F829252}|WordCraft.Core\\WordCraft.Core.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.core\\models\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5D0BAB-3A3A-4E1A-8CC9-53430F829252}|WordCraft.Core\\WordCraft.Core.csproj|solutionrelative:wordcraft.core\\models\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C263A6F9-D35F-4E1B-8949-2DA47C3FD26E}|WordCraft.API\\WordCraft.API.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C263A6F9-D35F-4E1B-8949-2DA47C3FD26E}|WordCraft.API\\WordCraft.API.csproj|solutionrelative:wordcraft.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C263A6F9-D35F-4E1B-8949-2DA47C3FD26E}|WordCraft.API\\WordCraft.API.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.api\\containers\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C263A6F9-D35F-4E1B-8949-2DA47C3FD26E}|WordCraft.API\\WordCraft.API.csproj|solutionrelative:wordcraft.api\\containers\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F4D94C-D3EC-4F87-9285-8ED1D7AB3E0D}|WordCraft.Service\\WordCraft.Service.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.service\\services\\wordcraft\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F4D94C-D3EC-4F87-9285-8ED1D7AB3E0D}|WordCraft.Service\\WordCraft.Service.csproj|solutionrelative:wordcraft.service\\services\\wordcraft\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5450293E-8D11-407A-9681-23A1A7819D0C}|WordCraft.Data\\WordCraft.Data.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.data\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5450293E-8D11-407A-9681-23A1A7819D0C}|WordCraft.Data\\WordCraft.Data.csproj|solutionrelative:wordcraft.data\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F4D94C-D3EC-4F87-9285-8ED1D7AB3E0D}|WordCraft.Service\\WordCraft.Service.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.service\\services\\wordcraft\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F4D94C-D3EC-4F87-9285-8ED1D7AB3E0D}|WordCraft.Service\\WordCraft.Service.csproj|solutionrelative:wordcraft.service\\services\\wordcraft\\authservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5D0BAB-3A3A-4E1A-8CC9-53430F829252}|WordCraft.Core\\WordCraft.Core.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.core\\models\\dtos\\user\\userclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5D0BAB-3A3A-4E1A-8CC9-53430F829252}|WordCraft.Core\\WordCraft.Core.csproj|solutionrelative:wordcraft.core\\models\\dtos\\user\\userclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5D0BAB-3A3A-4E1A-8CC9-53430F829252}|WordCraft.Core\\WordCraft.Core.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.core\\models\\datamodel\\wordcraft\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5D0BAB-3A3A-4E1A-8CC9-53430F829252}|WordCraft.Core\\WordCraft.Core.csproj|solutionrelative:wordcraft.core\\models\\datamodel\\wordcraft\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5450293E-8D11-407A-9681-23A1A7819D0C}|WordCraft.Data\\WordCraft.Data.csproj|d:\\caglar\\projects\\wordcraft\\wordcraft.backend\\wordcraft.data\\repositories\\wordcraft\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5450293E-8D11-407A-9681-23A1A7819D0C}|WordCraft.Data\\WordCraft.Data.csproj|solutionrelative:wordcraft.data\\repositories\\wordcraft\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 310,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 317,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WordCraft.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WordCraft.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:35:14.166Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Service\\Services\\WordCraft\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "WordCraft.Service\\Services\\WordCraft\\AuthServices\\AuthService.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Service\\Services\\WordCraft\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "WordCraft.Service\\Services\\WordCraft\\AuthServices\\AuthService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwCsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:16:51.217Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -62,6 +131,179 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Data\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WordCraft.Data\\UnitOfWorks\\UnitOfWork.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Data\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeToolTip": "WordCraft.Data\\UnitOfWorks\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:38:55.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.API\\Containers\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "WordCraft.API\\Containers\\DependencyContainer.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.API\\Containers\\DependencyContainer.cs",
+              "RelativeToolTip": "WordCraft.API\\Containers\\DependencyContainer.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:36:44.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Service\\Services\\WordCraft\\AuthServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "WordCraft.Service\\Services\\WordCraft\\AuthServices\\IAuthService.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Service\\Services\\WordCraft\\AuthServices\\IAuthService.cs",
+              "RelativeToolTip": "WordCraft.Service\\Services\\WordCraft\\AuthServices\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:36:10.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "ff0e3a46-90ff-43e6-8751-ababb1a14030",
+        "Display": 0,
+        "X": 442,
+        "Y": 409,
+        "Width": 1598,
+        "Height": 958,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Data\\Repositories\\WordCraft\\UserRepository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "WordCraft.Data\\Repositories\\WordCraft\\UserRepository\\UserRepository.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Data\\Repositories\\WordCraft\\UserRepository\\UserRepository.cs",
+              "RelativeToolTip": "WordCraft.Data\\Repositories\\WordCraft\\UserRepository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:43:59.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "6ea1fead-2166-458b-9e33-182f7e3291fd",
+        "Display": 0,
+        "X": -271,
+        "Y": 249,
+        "Width": 1596,
+        "Height": 957,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Service\\Services\\WordCraft\\UserServices\\UserService.cs",
+              "RelativeDocumentMoniker": "WordCraft.Service\\Services\\WordCraft\\UserServices\\UserService.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Service\\Services\\WordCraft\\UserServices\\UserService.cs",
+              "RelativeToolTip": "WordCraft.Service\\Services\\WordCraft\\UserServices\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:57:12.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Core\\Models\\DataModel\\WordCraft\\User.cs",
+              "RelativeDocumentMoniker": "WordCraft.Core\\Models\\DataModel\\WordCraft\\User.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Core\\Models\\DataModel\\WordCraft\\User.cs",
+              "RelativeToolTip": "WordCraft.Core\\Models\\DataModel\\WordCraft\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:50:14.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserClaimDto.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Core\\Models\\Dtos\\User\\UserClaimDto.cs",
+              "RelativeDocumentMoniker": "WordCraft.Core\\Models\\Dtos\\User\\UserClaimDto.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Core\\Models\\Dtos\\User\\UserClaimDto.cs",
+              "RelativeToolTip": "WordCraft.Core\\Models\\Dtos\\User\\UserClaimDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:32:42.527Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "90e02e41-bb45-4b50-a122-688a0c5389dd",
+        "Display": 1,
+        "X": 104,
+        "Y": 138,
+        "Width": 1598,
+        "Height": 776,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Core\\Models\\Dtos\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "WordCraft.Core\\Models\\Dtos\\User\\UserDto.cs",
+              "ToolTip": "D:\\caglar\\projects\\WordCraft\\WordCraft.Backend\\WordCraft.Core\\Models\\Dtos\\User\\UserDto.cs",
+              "RelativeToolTip": "WordCraft.Core\\Models\\Dtos\\User\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:48:59.55Z",
+              "EditorCaption": ""
             }
           ]
         }
