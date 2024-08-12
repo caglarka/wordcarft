@@ -1,0 +1,75 @@
+1. Proje Kurulumu
+Backend: .NET Core
+
+Yeni bir .NET Core Web API projesi oluşturun.
+Entity Framework Core kullanarak bir veritabanı (örneğin, SQL Server veya PostgreSQL) kurun.
+Kelimeler, örnek cümleler, kullanıcılar ve loglar için veritabanı tablolarını tanımlayın.
+Kullanıcı kimlik doğrulama ve yetkilendirme (örneğin, JWT ile) işlemlerini yapılandırın.
+Frontend: React
+
+React uygulaması oluşturun.
+UI bileşenlerini yapılandırın ve kullanıcı dostu bir arayüz oluşturun.
+API çağrılarını yönetmek için Axios gibi bir HTTP istemci kütüphanesi ekleyin.
+2. Kullanıcı Kayıt ve Giriş
+Backend: .NET Core
+Kullanıcıların kayıt olabileceği, giriş yapabileceği ve hesaplarını yönetebileceği API endpoint’lerini oluşturun.
+JWT tabanlı kimlik doğrulama sistemi kurun.
+Frontend: React
+Kayıt ve giriş formu oluşturun.
+JWT token’ı alıp saklamak için React State veya Context API kullanın.
+Kullanıcı giriş yaptıktan sonra, token’ı kullanarak API’ye güvenli bir şekilde erişim sağlayın.
+3. Kelime Kayıt ve Güncelleme
+Backend: .NET Core
+
+Kullanıcının yeni kelimeler kaydedebileceği, kelimenin İngilizce anlamını ekleyebileceği ve kayıtlı kelimeleri güncelleyebileceği API endpoint’lerini oluşturun.
+Kelimeleri kullanıcılara göre ilişkilendirin.
+Frontend: React
+
+Kelime ekleme/güncelleme formu oluşturun.
+API’den kelimeleri çekip, kelime listesi görüntüleme sayfası oluşturun.
+Kelime kaydetme ve güncelleme işlemlerini API’ye gönderin.
+4. Örnek Cümle Oluşturma ve Skorlama
+Backend: .NET Core
+Her kelime için birden fazla örnek cümle ekleyebileceğiniz API endpoint’lerini oluşturun.
+Kullanıcının cümlelerini 10 üzerinden değerlendiren bir algoritma geliştirin. Bu algoritma, cümlenin uzunluğu, kullanılan kelimeler ve dil bilgisi gibi kriterlere dayalı olabilir.
+Frontend: React
+Kullanıcının cümle oluşturabileceği bir arayüz tasarlayın.
+Cümleleri API’ye gönderin ve cümlenin skorunu alıp kullanıcıya gösterin.
+Cümleleri listeleyin ve kullanıcıya kendi cümlelerini düzenleme imkanı verin.
+5. Logları Görüntüleme
+Backend: .NET Core
+Kullanıcının eklediği kelimeler ve cümleler için logları tutan bir yapı oluşturun.
+Kullanıcının önceki aktivitelerini görüntüleyebileceği bir API endpoint’i oluşturun.
+Frontend: React
+Kullanıcının geçmiş loglarını görüntüleyebileceği bir sayfa oluşturun.
+Logları çekip, kullanıcının ne zaman hangi kelimeyi öğrendiğini ve hangi cümleleri kurduğunu gösterin.
+6. Gelişmiş Özellikler
+Gelişmiş Skor Algoritması: Cümlelerin dilbilgisi doğruluğunu kontrol etmek için daha gelişmiş bir algoritma geliştirin. Örneğin, doğal dil işleme (NLP) kullanarak cümlelerin doğru olup olmadığını analiz edebilirsiniz.
+Öğrenme İstatistikleri: Kullanıcıların ne kadar ilerlediğini, hangi kelimelerde zorlandığını ve hangi konularda daha fazla pratik yapması gerektiğini gösteren bir istatistik sayfası oluşturun.
+Anlık Geri Bildirim: Kullanıcı cümleyi oluştururken anında geri bildirim alabilir, bu sayede cümle oluşturma sürecinde hatalarını düzeltebilir.
+
+6. Gelişmiş Özellikler
+6.1 Gelişmiş Skor Algoritması
+Doğal Dil İşleme (NLP) Tabanlı Skorlama:
+Backend: .NET Core + AI Modülleri: NLP teknolojileri kullanarak kullanıcıların oluşturduğu cümleleri daha ayrıntılı analiz edebilirsiniz. Örneğin, SpaCy, NLTK gibi Python tabanlı kütüphaneleri ya da Azure Cognitive Services kullanarak dil bilgisi, kelime kullanımı, cümle yapısı gibi kriterleri analiz edebilirsiniz. Cümlelerin doğru anlamda kullanılıp kullanılmadığını kontrol edebilir ve buna göre bir puanlama yapabilirsiniz.
+Frontend: React: Kullanıcının cümle oluşturma sürecinde anlık geri bildirim sağlamak için bir AI destekli arayüz tasarlayın. Örneğin, cümleyi yazarken yanlış yapılan bir hatayı gerçek zamanlı olarak kullanıcıya gösterip düzeltmesini önerebilirsiniz.
+6.2 Öğrenme İstatistikleri
+Kişiselleştirilmiş Öneriler:
+Backend: .NET Core + AI Modülleri: Kullanıcıların öğrenme geçmişini analiz ederek, onların hangi konularda zorlandığını belirleyip, bu alanlarda daha fazla çalışma önerilerinde bulunabilirsiniz. Makine öğrenmesi algoritmalarıyla (örneğin, K-Means Clustering, Neural Networks) kullanıcının hangi kelimelerde daha çok hata yaptığını ya da hangi cümle yapılarında zorluk yaşadığını analiz edebilirsiniz.
+Frontend: React: Kullanıcıya kişiselleştirilmiş öğrenme yolları ve tekrar önerileri sunan bir arayüz geliştirin. Örneğin, kullanıcının en çok zorlandığı kelimeleri ve cümle yapılarını tekrar çalışması için önerilerde bulunan bir bölüm ekleyebilirsiniz.
+6.3 Anlık Geri Bildirim
+Yapay Zeka Destekli Geri Bildirim:
+Backend: .NET Core + AI Modülleri: AI tabanlı bir öneri motoru kullanarak, kullanıcıların cümle oluşturma sürecinde anlık geri bildirim almasını sağlayabilirsiniz. Kullanıcı cümleyi yazarken, AI algoritması doğru olup olmadığını analiz eder ve anında geri bildirim sağlar. Bu geri bildirimler, dilbilgisi hataları, yanlış kelime kullanımı ya da cümle yapısındaki sorunları kapsayabilir.
+Frontend: React: Geri bildirimlerin anlık olarak kullanıcının görebileceği şekilde UI bileşenleri ekleyin. Örneğin, kullanıcı cümle yazarken, hataları gerçek zamanlı olarak işaretleyen bir editör geliştirin.
+6.4 Öneri ve Otomatik Düzeltme
+Kelime ve Cümle Önerileri:
+Backend: .NET Core + AI Modülleri: Kullanıcının yazdığı cümlelerin bağlamını analiz ederek, daha iyi kelime ve cümle önerileri sunan bir sistem geliştirebilirsiniz. Örneğin, kullanıcı belirli bir kelime yazdığında, AI tabanlı sistem benzer anlamda kullanılan diğer kelimeleri önerir.
+Frontend: React: Kullanıcıya yazarken öneriler sunan bir özellik ekleyin. Örneğin, cümle tamamlama ya da otomatik düzeltme işlevleri ekleyebilirsiniz.
+6.5 Sesli Yanıt ve Okuma
+Sesli Okuma ve Telaffuz Kontrolü:
+Backend: .NET Core + AI Modülleri: Ses tanıma ve üretim teknolojileriyle (örneğin, Google Cloud Text-to-Speech, Microsoft Azure Speech Services) kullanıcının yazdığı cümleleri sesli olarak okuyan ve telaffuz kontrolü yapan bir sistem entegre edebilirsiniz.
+Frontend: React: Kullanıcıların yazdıkları cümleleri dinleyebileceği ve telaffuzlarını kontrol edebileceği bir arayüz ekleyin. Örneğin, yazılan cümlelerin sesli olarak okunmasını sağlayan bir buton ve doğru telaffuzu gösteren bir gösterge ekleyebilirsiniz.
+6.6 Öğrenme Planları ve Günlük Hedefler
+Kişiselleştirilmiş Öğrenme Planları:
+Backend: .NET Core + AI Modülleri: Kullanıcının öğrenme alışkanlıklarına göre kişiselleştirilmiş günlük hedefler ve uzun vadeli öğrenme planları oluşturun. AI algoritmaları kullanarak, kullanıcının geçmiş performansını analiz ederek, ona uygun bir öğrenme planı önerin.
+Frontend: React: Kullanıcının öğrenme hedeflerini takip edebileceği ve ilerlemesini görüntüleyebileceği bir gösterge panosu ekleyin. Günlük hedefler, tamamlanan görevler ve öğrenme istatistiklerini gösteren bir arayüz geliştirin.
